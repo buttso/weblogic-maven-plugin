@@ -18,6 +18,8 @@ The maven artefacts can be retrieved from a local/corp repository that has been 
 
 **As of January 2015** the plugin and artefacts can also be retrieved from the     Oracle Maven Repository - see [http://maven.oracle.com](http://maven/.oracle.com)
 
+## Configuring weblogic-maven-plugin
+
 The canonical pom.xml to use the weblogic-maven-plugin is this:
 
     <?xml version="1.0" encoding="UTF-8"?>
@@ -75,6 +77,10 @@ The canonical pom.xml to use the weblogic-maven-plugin is this:
     </project>
 
 ## Command Line Invocation
+
+**Note:** all these goals shown below (and more) do not require a local installation of WebLogic Server to execute - no middleWare home settings is needed. 
+
+To execute the goals successfully a server has to be running *somewhere* to use as a target for the operation :-)
 
 To perform a **deploy** operation
 
@@ -143,8 +149,7 @@ When the maven verify command is issued, the deploy and undeploy goals will be e
     ...
     Target state: undeploy completed on Server AdminServer
    
-
-##TL;DR A Brief History of WebLogic Maven Plugins
+##TL;DR: A Brief History of WebLogic Maven Plugins
 
 This will provide a short overview/timeline/history of the different maven plugins for WebLogic Server.
 
