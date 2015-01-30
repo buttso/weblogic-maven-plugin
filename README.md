@@ -1,6 +1,7 @@
 # weblogic-maven-plugin
 
-*Author: Steve Button*
+*Author: Steve Button*  
+
 *Date: Jan/Feb 2015*
 
 This project contains a simple Maven project that configures and uses the weblogic-maven-plugin to deploy an application to a running WebLogic Server instance.
