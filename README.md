@@ -1,4 +1,4 @@
-# weblogic-maven-plugin
+# Using weblogic-maven-plugin
 
 *Author: Steve Button*  
 
