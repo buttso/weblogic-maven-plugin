@@ -16,7 +16,7 @@ The weblogic-maven-plugin:12.1.3-0-0 can perform most of its operations without 
 
 The maven artefacts can be retrieved from a local/corp repository that has been populated using the oracle-maven-sync:12.1.3-0-0 plugin.  This plugin will populate a specified repository with the artefacts that are present in a WebLogic Server installation, including the plugin itself.
 
-**As of January 2015** the plugin and artefacts can also be retrieved from the     Oracle Maven Repository - see [http://maven.oracle.com](http://maven/.oracle.com)
+**As of January 2015** the plugin and artefacts can also be retrieved from the     Oracle Maven Repository - see [http://maven.oracle.com](http://maven.oracle.com)
 
 ## Configuring weblogic-maven-plugin
 
